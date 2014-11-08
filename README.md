@@ -84,6 +84,7 @@ def standarddev(alist):
     sdev = math.sqrt(total/len(alist)-1)
     return sdev
     
+    
 def mode(alist):
     countdict = {}
 
